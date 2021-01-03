@@ -53,14 +53,18 @@ header {
 		
   }
   .pattern{
-    text-align: center;
+    height: 50px;
     overflow: scroll;
+    overflow-x: hidden;
     
   }
   
   .welcome h3{
-    margin-top:50px;
+    margin-top:0px;
 
+  }
+  .pattern .welcome h3{
+    margin-top: -125px;
   }
     .welcome{
         width: 400px;
