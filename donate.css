@@ -55,7 +55,7 @@ header {
   .pattern{
     text-align: center;
     overflow: scroll;
-    overflow-x: hidden;
+    
   }
   
   .welcome h3{
