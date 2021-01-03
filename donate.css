@@ -56,7 +56,6 @@ header {
     text-align: center;
     overflow: scroll;
     overflow-x: hidden;
-    overflow-y: hidden;
   }
   
   .welcome h3{
