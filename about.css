@@ -58,8 +58,10 @@ header {
 	color: #333;
 }
 .pattern {
-    height: 40vh;
+    height: 80vh;
     width: 100vw;
+    overflow:scroll;
+    overflow-x: hidden;
     
     background-image: repeating-linear-gradient(
       32deg, 
@@ -93,7 +95,11 @@ header {
 	}
 	.welcome h1 {
 		font-size: 30px;
-	}
+  }
+  
+.header h3{
+  width:50px;
+}
 }
 body {
     margin: 0;

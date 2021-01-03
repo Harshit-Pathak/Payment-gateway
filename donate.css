@@ -45,24 +45,35 @@ header {
 
 @media (max-width:600px) {
 
-    body{
-        height:auto;
-    }
 	.logo {
 		float: none;
 		width: 50%;
         text-align: center;
         margin-left: 110px;
 		
-	}
+  }
+  .pattern{
+    text-align: center;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  
+  .welcome h3{
+    margin-top:50px;
+
+  }
     .welcome{
         width: 400px;
-        height: auto;
+        height: 80px;
         margin: 30% 0;
         float: none;
-        margin-top: 0;
-        margin-left: 130px;
+        margin-left: 40px;
+        
 
+    }
+    .welcome h3{
+      margin-top:0;
     }
 }
 

@@ -93,7 +93,7 @@ header {
 	}
 	.welcome h1 {
 		font-size: 30px;
-	}
+  }
 }
 body {
     margin: 0;
@@ -234,4 +234,5 @@ body {
     .header .menu-icon {
       display: none;
     }
+    
   }
