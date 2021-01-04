@@ -75,15 +75,16 @@ header {
 
 @media (max-width:600px) {
 
-    body{
-        height:auto;
-    }
+  .heading h3{
+    
+    text-align: center;
+  }
 
 	.logo {
-		float: none;
+		
 		width: 50%;
-        text-align: center;
-        margin-left: 120px;
+    margin-left: 60px;
+      
 		
 	}
 	.welcome{
@@ -229,6 +230,7 @@ body {
     .header .menu {
       clear: none;
       float: right;
+
       max-height: none;
     }
     .header .menu-icon {

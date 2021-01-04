@@ -76,15 +76,11 @@ header {
 
 @media (max-width:600px) {
 
-    body{
-        height:auto;
-    }
-
 	.logo {
-		float: none;
-		width: 50%;
-        text-align: center;
-        margin-left: 120px;
+		
+		width: 80%;
+    text-align: center;
+    margin-left: 120px;
 		
 	}
 	.welcome{
@@ -96,7 +92,13 @@ header {
 	}
 	.welcome h1 {
 		font-size: 30px;
-	}
+  }
+  .heading h3{
+    text-align: center;
+    width:160px;
+    margin-left: 20px;
+  }
+  
 }
 body {
     margin: 0;

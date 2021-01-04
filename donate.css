@@ -45,44 +45,43 @@ header {
 
 @media (max-width:600px) {
 
+  .heading h3{
+    text-align: center;
+  }
+
 	.logo {
-		float: none;
 		width: 50%;
-        text-align: center;
-        margin-left: 110px;
+    margin-left: 60px;
 		
   }
   .pattern{
     height: 50px;
     overflow: scroll;
     overflow-x: hidden;
+    margin-top: 60px;
     
   }
-  
-  .welcome h3{
-    margin-top:0px;
 
-  }
   .pattern .welcome h3{
-    margin-top: -125px;
+    margin-top: -125px;  
+    
+    margin-left: 55px;
+    max-width: fit-content;
   }
     .welcome{
-        width: 400px;
-        height: 80px;
+        width: 300px;
+        height: 100px;
         margin: 30% 0;
-        float: none;
-        margin-left: 40px;
         
-
     }
-    .welcome h3{
-      margin-top:0;
-    }
+    
+    
 }
 
 .welcome h3{
     margin-top: 272px;
-    margin-right: 120px;
+    margin-left: 150px;
+    width: 500px;
 }
 
 a {

@@ -80,14 +80,13 @@ header {
     body{
         height:auto;
     }
-
 	.logo {
-		float: none;
-		width: 50%;
-        text-align: center;
-        margin-left: 120px;
 		
-	}
+		width: 80%;
+    text-align: center;
+    margin-left: 80px;
+		
+  }
 	.welcome{
 		width: 100%;
 		height: auto;
@@ -98,7 +97,8 @@ header {
   }
   
 .header h3{
-  width:50px;
+  width:160px;
+  margin-left: 20px;
 }
 }
 body {
